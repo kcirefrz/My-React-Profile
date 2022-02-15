@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+	/*font-family: "Open Sans";*/
+}
+
+html,body{
+	height: 100%;
+}
+
+/*body{
+  background-image: url(../src/img/background.jpg);
+  background-size: cover;
+}*/
+
+.container{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+  height: 100vh;
+  background-image: url(../src/img/workspace.jpg);
+  background-size: cover;
+}
+
+header .title{
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 100px;
+  position: relative;
+  right: 350px;
+  top: 25px;
+  font-size: 50px;
+}
+
+.profileImage{
+  height: 300px;
+  width: 300px;
+  background-image: url(../src/img/eusol.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 200px;
+  margin: 0 auto;
+  position: relative;
+  right: 350px;
+  margin-bottom: 70px;
+}
+
+.data{
+  margin-bottom: 30px;
+}
+
+.personalData{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.nameD{
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+}
+
+.name{
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.ageD{
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+}
+
+.age{
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.form{
+  margin-bottom: 30px;
+}
+
+.formation{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.gradLevelD{
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+}
+
+.gradLevel{
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.courseD{
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+}
+
+.experience{
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.projects{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.githubD{
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+}
+
+.github{
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.linkedinD{
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+}
+
+.linkedin{
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.instaD{
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+}
+
+.insta{
+  margin-left: 15px;
+  font-weight: 100;
+}
